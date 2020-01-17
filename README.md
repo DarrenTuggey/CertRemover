@@ -20,6 +20,7 @@ Example Command Prompt.
 C:\>cd C:\Users\Darren.Tuggey\Desktop
 
 C:\Users\Darren.Tuggey\Desktop>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe CertRemover.cs
+
 Microsoft (R) Visual C# Compiler version 4.7.3056.0
 for C# 5
 Copyright (C) Microsoft Corporation. All rights reserved.
