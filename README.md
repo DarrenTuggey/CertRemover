@@ -1,20 +1,22 @@
 This program removes any certificate with a FriendlyName containing "ID - ".
 Removing that certificate will help prevent the constant "Select Certificate" popup when using IMA NALCOMIS.
 
-To compile the program:
+To compile the program.
 1. Download or create a new txt file and copy/paste the code from CertRemover.cs into it.  
 
 2. Open a command prompt. Navigate to the directory you saved the CertRemover.cs file in.
 
 3. Find your csc.exe file in "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\". You may have a different version so the path may not match exactly.
 
-4. Run the following in your command prompt window (Change path if needed):
+4. Run the following in your command prompt window (Change path if needed).
+
     C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe CertRemover.cs
     
 5. You should now have the CertRemover.exe file on your Desktop.
 
 
-Example Command Prompt:
+Example Command Prompt.
+
 C:\>cd C:\Users\Darren.Tuggey\Desktop
 
 C:\Users\Darren.Tuggey\Desktop>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe CertRemover.cs
